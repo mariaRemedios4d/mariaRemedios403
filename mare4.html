@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flores Fav</title>
+    <link rel="stylesheet" href="estilomaria.css">
+    <style>
+        #imagen-mostrada {
+            margin-top: 20px;
+            display: none;
+        }
+    </style>
+    <script>
+        function mostrarImagen(nombre) {
+            const imagen = document.getElementById('imagen-mostrada');
+            imagen.src = nombre + '.jpg';
+            imagen.alt = nombre;
+            imagen.style.display = 'inline';
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Mis Flores Favoritas</h1>
+        <nav>
+            <ul>
+                <li><a href="https://unsplash.com/es/s/fotos/rosa-blanca" target="_blank">Rosa Blanca</a></li>
+                <li><a href="https://unsplash.com/es/s/fotos/rosa-roja" target="_blank">Rosa Roja</a></li>
+                <li><a href="https://unsplash.com/es/s/fotos/margarita" target="_blank">Margaritas</a></li>
+                <li><a href="https://www.istockphoto.com/es/fotos/girasol" target="_blank">Girasol</a></li>
+                <li><a href="https://www.gettyimages.com.mx/fotos/lirio" target="_blank">Lirios</a></li>
+                <li><a href="https://pixabay.com/es/images/search/orqu%C3%ADdeas/" target="_blank">Orquídeas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>FLOR FAV</h2>
+        <p>Las rosas rojas me gustan por su aroma, su color y porque son símbolo de pureza, inocencia, nuevos comienzos y amor eterno.</p>
+
+    
+        <div id="imagen-container">
+            <img id="imagen-mostrada" src="" alt="Flor seleccionada">
+        </div>
+    </section>
+
+    <section>
+        <table border="0">
+            <tr>
+                <td>Rosa Blanca</td>
+                <td>Rosa Roja</td>
+                <td>Margaritas</td>
+                <td>Girasol</td>
+                <td>Lirios</td>
+            </tr>
+            <tr>
+                <td><img src="IMG/florBlanca.jpeg" alt="Rosa Blanca"></td>
+                <td><img src="IMG/florRoja.jpeg" alt="Rosa Roja"></td>
+                <td><img src="IMG/margaritas.jpeg" alt="Margaritas"></td>
+                <td><img src="IMG/girasol.jpeg" alt="Girasol"></td>
+                <td><img src="IMG/lirio.jpeg" alt="Lirios"></td>
+            </tr>
+        </table>
+
+        <table border="0">
+            <tr>
+                <td><strong>Rosa Blanca:</strong> Las rosas blancas simbolizan pureza, inocencia, amor eterno y nuevo comienzo. Son un símbolo popular en bodas, representando el inicio de una nueva vida juntos. También pueden representar respeto, consuelo y paz en situaciones de duelo. En algunos casos, pueden expresar agradecimiento o sinceridad.</td>
+                <td><strong>Rosa Roja:</strong> Las rosas rojas simbolizan el amor, la pasión, el romance y el deseo profundo. También pueden representar respeto, admiración y gratitud, especialmente en relaciones de amistad o familia.</td>
+                <td><strong>Margaritas:</strong> Las margaritas blancas representan la inocencia y la pureza, mientras que las margaritas amarillas simbolizan la felicidad y la amistad. Las margaritas rojas representan el amor y la pasión, y las margaritas rosas representan el amor y la gratitud.</td>
+                <td><strong>Girasol:</strong> El girasol es el símbolo del Sol y simboliza el amor y la admiración. Pero también la felicidad, la vitalidad, el positivismo y la energía. En la cultura china simboliza una larga vida y buena suerte.</td>
+                <td><strong>Lirios:</strong> El lirio tiene un significado general de pureza, inocencia y belleza. Los lirios blancos simbolizan pureza y renacimiento, los rojos representan amor y pasión, los amarillos se asocian con la felicidad y la alegría, y los naranjas con la pasión y la energía creativa.</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MARIA REMEDIOS PEREZ ESPIRIDION NL:29</p>
+    </footer>
+</body>
+
+</html>
